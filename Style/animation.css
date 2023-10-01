@@ -1,0 +1,140 @@
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes color {
+  0% {
+    background: radial-gradient(
+      circle,
+      rgba(238, 174, 202, 1) 0%,
+      rgba(197, 138, 255, 1) 47%,
+      rgba(148, 187, 233, 1) 100%
+    );
+  }
+  25% {
+    background: radial-gradient(
+      circle,
+      rgba(5, 16, 61, 1) 0%,
+      rgba(21, 44, 97, 1) 48%,
+      rgba(251, 251, 251, 1) 100%
+    );
+  }
+  50% {
+    background: linear-gradient(
+      93deg,
+      rgba(34, 193, 195, 1) 0%,
+      rgba(253, 187, 45, 1) 100%
+    );
+  }
+  75% {
+    background: linear-gradient(
+      93deg,
+      rgba(131, 58, 180, 1) 0%,
+      rgba(253, 29, 29, 1) 50%,
+      rgba(252, 176, 69, 1) 100%
+    );
+  }
+  100% {
+    background: linear-gradient(
+      93deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(0, 212, 255, 1) 100%
+    );
+  }
+}
+
+@keyframes shoot {
+  0% {
+    left: 150px;
+  }
+  25% {
+    left: 255px;
+  }
+  70% {
+    left: 150px;
+  }
+}
+
+@keyframes gilza {
+  0% {
+    top: 50px;
+    left: 410px;
+  }
+  20% {
+    transform: rotate(-30deg);
+    top: 30px;
+    left: 410px;
+  }
+  40% {
+    transform: rotate(330deg);
+    top: 0px;
+    left: 580px;
+  }
+  100% {
+    transform: rotate(720deg);
+    top: 100%;
+    left: 800px;
+  }
+}
+@keyframes bullet {
+  0% {
+    left: 150px;
+  }
+  20% {
+    left: -60px;
+  }
+  100% {
+    left: -60px;
+  }
+}
+@keyframes fire {
+  0% {
+    display: flex;
+    width: 50px;
+    height: 60px;
+    background: radial-gradient(
+      circle at 100%,
+      #ff0000,
+      #ff7b00 20%,
+      #ffee00 50%,
+      #ffffff 70%
+    );
+    border-radius: 50%;
+    position: absolute;
+    top: 55px;
+    left: 100px;
+    background-color: white;
+  }
+  20% {
+    display: flex;
+    width: 150px;
+    height: 60px;
+    background: radial-gradient(
+      circle at 100%,
+      #ff0000,
+      #ff7b00 20%,
+      #ffee00 50%,
+      #ffffff 70%
+    );
+    border-radius: 50%;
+    position: absolute;
+    top: 55px;
+    left: 0;
+  }
+  50% {
+    height: 10px;
+    background: white;
+    top: 80px;
+  }
+  60% {
+    background: rgb(170, 0, 0);
+  }
+  100% {
+    background-color: rgb(170, 0, 0);
+  }
+}
